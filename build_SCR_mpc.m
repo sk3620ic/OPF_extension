@@ -44,6 +44,8 @@ for i = 1:n
             Z(c,i) = abs(Zbus(gen_idx(i),gen_idx(i)));
             c = c + 1;
         end
+    else
+        i = n;
     end
 end
 
